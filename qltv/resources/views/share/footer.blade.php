@@ -5,3 +5,5 @@
 <!-- AdminLTE App -->
 <script src="/theme/dist/js/adminlte.min.js"></script>
 <script src="/js/main.js"></script>
+<script src="/js/click.js"></script>
+

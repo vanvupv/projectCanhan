@@ -29,6 +29,8 @@ class LoginController extends Controller
             'password'=>$request->input('password')
         ]))
         {
+            $user = Auth::user();
+//            dd($user);
             //echo "đăng nhập thành công";
             return redirect()->route('admin');
         }

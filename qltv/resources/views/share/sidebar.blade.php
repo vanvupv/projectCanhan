@@ -38,21 +38,71 @@
                     <a href="#" class="nav-link">
                         <i class="nav-icon fas fa-solid fa-bars"></i>
                         <p>
-                            Quản lý danh mục
+                            Quản lý Sản phẩm
                             <i class="right fas fa-angle-left"></i>
                         </p>
                     </a>
                     <ul class="nav nav-treeview">
                         <li class="nav-item">
-                            <a href="/admin/danhmuc/add" class="nav-link">
+                            <a href="/admin/sanpham/add" class="nav-link">
                                 <i class="fas fa-light fa-circle"></i>
-                                <p>Thêm mới danh mục</p>
+                                <p>Thêm mới Sản phẩm</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="/admin/danhmuc/list" class="nav-link">
+                            <a href="/admin/sanpham/list" class="nav-link">
                                 <i class="fas fa-light fa-circle"></i>
-                                <p>Danh sách danh mục</p>
+                                <p>Danh sách Sản phẩm</p>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+
+                <!-- QL SAN PHAM -->
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <i class="nav-icon fas fa-solid fa-bars"></i>
+                        <p>
+                            Quản lý Loại Sản phẩm
+                            <i class="right fas fa-angle-left"></i>
+                        </p>
+                    </a>
+                    <ul class="nav nav-treeview">
+                        <li class="nav-item">
+                            <a href="/admin/loaisanpham/addType" class="nav-link">
+                                <i class="fas fa-light fa-circle"></i>
+                                <p>Thêm mới Loại Sản phẩm</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/admin/loaisanpham/listType" class="nav-link">
+                                <i class="fas fa-light fa-circle"></i>
+                                <p>Danh sách Loại Sản phẩm</p>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+
+                <!-- QL Anh -->
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <i class="nav-icon fas fa-solid fa-bars"></i>
+                        <p>
+                            Quản lý Ảnh
+                            <i class="right fas fa-angle-left"></i>
+                        </p>
+                    </a>
+                    <ul class="nav nav-treeview">
+                        <li class="nav-item">
+                            <a href="{{ route('AddImg') }}" class="nav-link">
+                                <i class="fas fa-light fa-circle"></i>
+                                <p>Thêm mới Ảnh</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="{{ route('listImage') }}" class="nav-link">
+                                <i class="fas fa-light fa-circle"></i>
+                                <p>Danh sách Ảnh</p>
                             </a>
                         </li>
                     </ul>
@@ -63,3 +113,6 @@
     </div>
     <!-- /.sidebar -->
 </aside>
+
+
+
